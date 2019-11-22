@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+/* NAVBAR STYLES */
+.navbar {
+    background: #ffffff!important;
+}
+
+.logo {
+    width: 70px;
+    color: #000000;
+    font-family: "Myriad Pro",sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 10%;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    display: inline-flex;
+    color: #000000!important;
+    font-family: "Myriad Pro",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.nav-link:hover {
+    transition: 0.5s all ease-out;
+    color: #ffffff!important;
+    border: 1px;
+    background: #000000;
+}
+
+
+/* INTRODUCTION SECTION STYLES */
+
+.intro-container {
+    height: 937px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/images/intro-image.png");
+    opacity: 1;
+}
+
+.intro-title {
+    color: #ffffff;
+    font-size: 80px;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.intro_btn {
+    margin-top: 3%;
+    width: 10%;
+    height: 7%;
+    font-size: 20px;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 600;
+    color: #1e1e1e;
+    border: none;
+    -webkit-box-shadow: 6px 7px 3px 0 rgba(0,47,255,1);
+    -moz-box-shadow: 6px 7px 3px 0 rgba(0,47,255,1);
+    box-shadow: 6px 7px 3px 0 rgba(0,47,255,1);
+    transition: 0.5s all ease-in;
+}
+
+.intro_btn:hover {
+    transition: 0.5s all ease-out;
+    background: #ecd730;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+/* ABOUT US STYLES */
+
+.about-block {
+    margin-top: 10%;
+}
+
+.about-image {
+    max-width: 600px;
+    max-height: 400px;
+    -webkit-box-shadow: 6px 7px 3px 0 #b3278d;
+    -moz-box-shadow: 6px 7px 3px 0 #b3278d;
+    box-shadow: 6px 7px 3px 0 #b3278d;
+    transition: 0.5s all ease-in;
+}
+
+.about-image:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.text-block {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.text-block h3 {
+    color: #1e1e1e;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text-block p {
+    color: #363636;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.text-block button {
+    margin-top: 10%;
+    width: 30%;
+    height: 15%;
+    background-color: #0030ff;
+    border: none;
+    color: #ffffff;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-box-shadow: 5px 5px 3px 0 #01197e;
+    -moz-box-shadow: 5px 5px 3px 0 #01197e;
+    box-shadow: 5px 5px 3px 0 #01197e;
+    transition: 0.5s all ease-in;
+}
+
+.text-block button:hover {
+    background-color: #000000;
+    color: #ffffff;;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    transition: 0.5s all ease-out;
+}
+
+/* PORTFOLIO STYLES */
+
+.portfolio-block {
+    margin-top: 158px;
+}
+
+.portfolio-block h2 {
+    color: #1e1e1e;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.portfolio-block p {
+    color: #565656;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
