@@ -4,7 +4,7 @@ import aboutImage from '../assets/images/about-image.png'
 class AboutUsSection extends React.Component {
     render() {
         return(
-            <div className="about-block container">
+            <div className="about-block container" align="center">
                 <div className="row">
                     <div className="image-block col-sm">
                         <img className="about-image" src={aboutImage} alt="aboutImage"/>

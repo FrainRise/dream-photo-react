@@ -13,14 +13,17 @@ class PortfolioSection extends React.Component {
                 <h2 className="portfolio-title"> Portfolio </h2>
                 <p className="portfolio-text">Nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
                     accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
-                <div className="image-container">
-                    {
-                        images.map(function (image) {
-                        return (
-                            <img src={image} alt="" className="portfolio-images"/>
-                        )
-                     })
-                        }
+                <div className="image-container container">
+                    <div className="row" style={{justifyContent: 'center'}}>
+                        {
+                            images.map(function (image) {
+                            return (
+                                <div className="row" >
+                                    <img src={image} alt="" className="portfolio-images"/>
+                                </div>
+                            )
+                         })}
+                    </div>
                 </div>
             </div>
         )
