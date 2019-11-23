@@ -21,7 +21,7 @@ class Footer extends React.Component {
                                     <img src={homeAddress} alt=""/>
                                 </div>
                                 <div className="col-2">
-                                    <h6 >13/2 Elizabeth Street Melbourne VIC 3000, Australia</h6>
+                                    <h6>13/2 Elizabeth Street Melbourne VIC 3000, Australia</h6>
                                 </div>
                                 <div className="w-100" style={{marginTop: '10%'}}></div>
                                 <div className="col-2">
