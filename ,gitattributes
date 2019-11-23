@@ -1,0 +1,3 @@
+*.rb linguist-language=React
+
+*.glyphs linguist-language=OpenStep-Property-List
